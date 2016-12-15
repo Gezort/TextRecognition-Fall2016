@@ -36,7 +36,7 @@ def score(final_accuracy,final_auc,final_apatk):
     elif final_auc >= 0.97:
         print ("\tОтличное решение! (good)")
     elif final_auc >= 0.95:
-        precisionAtK ("\tСойдёт, хотя можно ещё поднажать (ok)")
+        print ("\tСойдёт, хотя можно ещё поднажать (ok)")
     elif final_auc >= 0.9:
         print ("\tНеплохо, но ты можешь лучше! (not ok)")
     elif final_auc > 0.8:
